@@ -8,16 +8,18 @@
 
 int main(void)
 {
-        char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-        int i;
+	int n = 97;
 
-        for (i = 0; i < 26; i++)
+	while (n <= 122)
 	{
-                if (alphabet[i] != 'e' &&  alphabet[i] =! 'q')
+		if (n == 101 || n == 113)
 		{
-			putchar(alphabet[i]);
+			n++;
+			continue;
 		}
-        }
-        putchar('\n');
-        return (0);
+		putchar(n);
+		n++;
+	}
+	putchar('\n');
+	return (0);
 }

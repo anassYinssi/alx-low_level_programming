@@ -7,16 +7,9 @@
  */
 int _islower(int c)
 {
-	int i;
-	int c1;
-
-	for (i = 97; i <= 122; i++)
+	if (c >= 97 && i <= 122)
 	{
-		c1 = _putchar(i);
-		if (c1 == c)
-		{
-			return (1);
-		}
+		return (1);
 	}
 	return (0);
 }

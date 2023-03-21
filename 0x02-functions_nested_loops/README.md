@@ -1,1 +1,1 @@
-0x02-functions_nested_loops files 
+0x02-functions nested loops files 

@@ -1,5 +1,5 @@
 #include "main.h"
-#include "alphabet.c" 
+
 /**
 * print_alphabet_x10 - Program entry
 *
@@ -11,8 +11,11 @@ void print_alphabet_x10(void)
 	int i =0;
 	do
 	{
-		print_alphabet();
-		i++;
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		_putchar('\n');
 	}
 	while (i < 10);
 }

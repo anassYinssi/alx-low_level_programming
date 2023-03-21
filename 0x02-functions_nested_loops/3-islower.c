@@ -2,14 +2,13 @@
 
 /**
  * _islower - Program entry
- *
- * Return: Always 0 (Success)
+ * @c: character to be checked
+ * Return: 1 for lowercase  and 0 for anything else
  */
-
 int _islower(int c)
 {
 	int i;
-	char c1;
+	int c1;
 
 	for (i = 97; i <= 122; i++)
 	{

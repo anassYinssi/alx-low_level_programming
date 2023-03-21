@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _islower - Program entry
-*
-* Return: Always 0 (Success)
-*/
+ * _islower - Program entry
+ *
+ * Return: Always 0 (Success)
+ */
 
 int _islower(int c)
 {

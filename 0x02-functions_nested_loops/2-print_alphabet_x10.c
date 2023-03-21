@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "alphabet.c" 
 /**
 * print_alphabet_x10 - Program entry
 *

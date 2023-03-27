@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 #include "main.h"
 /**
 * print_rev - Program entry
@@ -12,7 +13,7 @@ void print_rev(char *s)
 
 	for (i = strlen(s); i > 0 ; i--)
 	{
-		printf("%s", *(s+i));
+		printf("%s", s+i);
 	}
 	printf("\n");
 }

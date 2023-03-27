@@ -10,6 +10,6 @@
 
 int _strlen(char *s)
 {
-	int len = strlen(*s);
+	int len = *s.lenght();
 	return len;
 }

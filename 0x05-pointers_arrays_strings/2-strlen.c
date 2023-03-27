@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+#include<string.h>
 #include "main.h"
 /**
 * _strlen - Program entry
@@ -10,5 +10,6 @@
 
 int _strlen(char *s)
 {
-	return (strlen(*s));
+	int len = strlen(*s);
+	return len;
 }

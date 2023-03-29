@@ -15,7 +15,7 @@ void print_rev(char *s)
 	char c;
 	int len = strlen(s);
 
-	for (i = 0, j = len - 1; i < len / 2, j > len / 2; i++, j--)
+	for (i = 0 j = len - 1; i < len / 2 j > len / 2; i++ j--)
 	{
 		c = *(s + i);
 		*(s + i) = *(s + j);

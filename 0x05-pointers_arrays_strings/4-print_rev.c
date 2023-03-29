@@ -11,15 +11,11 @@
 void print_rev(char *s)
 {
 	int i;
-	int j;
-	char c;
 	int len = strlen(s);
 
-	for (i = 0 j = len - 1; i < len / 2 j > len / 2; i++ j--)
+	for (i = len - 1; i > 0; i--)
 	{
-		c = *(s + i);
-		*(s + i) = *(s + j);
-		*(s + j) = c;
+		_putchar(*s);
 	}
 	printf("\n");
 }

@@ -2,11 +2,11 @@
 #include "main.h"
 /**
 * cap_string - Program entry
-* @s:xxxxx
+* @str:xxxxx
 * Return: Always 0 (Success)
 */
 
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
 	int index = 0;
 

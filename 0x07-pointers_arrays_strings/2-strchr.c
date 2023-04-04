@@ -28,7 +28,7 @@ char *_strchr(char *s, char c)
 			return (result);
 		}
 	}
-	return (NULL);
+	return (0);
 
 
 }

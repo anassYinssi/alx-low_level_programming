@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include "main.h"
 /**
 * _puts_recursion - Program entry
@@ -16,5 +17,6 @@ void _puts_recursion(char *s)
 		return;
 	}
 	printf("%c", s[i]);
-	_puts_recursion(s[i + 1]);
+	i++;
+	_puts_recursion(*(s + i));
 }

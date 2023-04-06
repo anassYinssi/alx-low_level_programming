@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include "main.h"
 /**
-* main - Program entry
+* factorial - Program entry
+* @n:xxxxx
 *
 * Return: Always 0 (Success)
 */
@@ -14,5 +15,5 @@ int factorial(int n)
 	{
 		return (1);
 	}
-	return (n * factorial(n -1));
+	return (n * factorial(n - 1));
 }
